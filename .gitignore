@@ -1,0 +1,6 @@
+.idea
+gen
+bin
+out
+gen-external-apklibs
+*.iml

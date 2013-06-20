@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">雯雯记账</string>
+    <string name="receipt">账单</string>
+    <string name="credit">财务状况</string>
+    <string name="receipt_description">用途</string>
+    <string name="receipt_amount">金额</string>
+    <string name="select_persons">选择相关人员</string>
+    <string name="add_receipt">记账</string>
+    <string name="cannot_be_empty">不能为空</string>
+    <string name="need_to_select_some_person">需要选中一些相关人员(最少2人)</string>
+    <string name="need_to_assign_payer">需要选择付款人</string>
+    <string name="name">名字</string>
+    <string name="add_person">添加人员</string>
+    <string name="repay_description_format" formatted="false">%s 还 %s %.0f</string>
+    <string name="payer_receiver_cannot_be_same">付款人和收款人不能相同</string>
+    <string name="payer">付款人</string>
+    <string name="receiver">收款人</string>
+    <string name="repay">还钱</string>
+</resources>

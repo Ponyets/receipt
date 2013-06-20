@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Receipt</string>
+    <string name="receipt">receipts</string>
+    <string name="credit">credit</string>
+    <string name="receipt_description">Description</string>
+    <string name="receipt_amount">Amount</string>
+    <string name="select_persons">Select Persons</string>
+    <string name="add_receipt">Add Receipt</string>
+    <string name="cannot_be_empty">cannot be empty</string>
+    <string name="need_to_select_some_person">need to select some person(2 person at least)</string>
+    <string name="need_to_assign_payer">need to assign payer</string>
+    <string name="name">Name</string>
+    <string name="add_person">Add Person</string>
+    <string name="repay_description_format" formatted="false">%s repay %s %.0f</string>
+    <string name="payer_receiver_cannot_be_same">Payer and Receiver cannot be same</string>
+    <string name="payer">Payer</string>
+    <string name="receiver">Receiver</string>
+    <string name="repay">Repay</string>
+</resources>
