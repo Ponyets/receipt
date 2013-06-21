@@ -1,6 +1,5 @@
 package com.ponyets.receipt;
 
-import android.R;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,12 +16,11 @@ import java.util.List;
  */
 class PersonAdapter extends BaseAdapter {
     private final int res;
+    private List<Person> persons;
 
     PersonAdapter(int res) {
         this.res = res;
     }
-
-    private List<Person> persons;
 
     public void setPersons(List<Person> persons) {
         this.persons = persons;
@@ -56,7 +54,7 @@ class PersonAdapter extends BaseAdapter {
     @Override
     public View getDropDownView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.simple_dropdown_item_1line, parent, false);
+            convertView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_dropdown_item_1line, parent, false);
         }
         ((TextView) convertView).setText(getItem(position).name);
         return convertView;

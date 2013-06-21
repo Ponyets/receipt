@@ -20,7 +20,7 @@ public class MainActivity extends BaseActivity implements ActionBar.TabListener 
         viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
-                getActionBar().setSelectedNavigationItem(position);
+                getSupportActionBar().setSelectedNavigationItem(position);
             }
         });
 
